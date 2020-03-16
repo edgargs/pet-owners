@@ -7,7 +7,7 @@
   
  {:db/id #db/id[:db.part/db]
   :db/ident :owner/pets
-  :db/valueType :db.type/string
+  :db/valueType :db.type/ref
   :db/cardinality :db.cardinality/many
   :db/doc "All pets for one owner"
   :db.install/_attribute :db.part/db}
